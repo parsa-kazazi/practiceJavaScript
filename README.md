@@ -1,6 +1,6 @@
 # practiceJavaScript
 
-# prime numbers ( عدد اول)
+# prime numbers (  عدد اول بین 1 - 100)
 for (let i= 1 ; i < 100 ; i++ )
 
 {
@@ -30,7 +30,7 @@ else
 
 
 
-# even numbers (اعداد زوج)
+# even numbers (اعداد زوج بین 1 - 10)
 for(let i=1 ;i<=10;i++){
 
 if(i % 2===0)
