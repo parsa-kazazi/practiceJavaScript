@@ -1,7 +1,7 @@
 # practiceJavaScript
 
 # prime numbers (adade aval)
--for (let i= 1 ; i < 100 ; i++ )
+- for (let i= 1 ; i < 100 ; i++ )
 {
 let x=0
 for(let j=2;j<i-1;j++)
