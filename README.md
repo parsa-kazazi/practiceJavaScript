@@ -62,3 +62,33 @@ else{return number2}
 }
 
 
+
+# sumEvenNumbers (مجموع اعدا زوج بین 1 تا 20)
+let n=20
+
+
+let sumEven=n=>{
+
+let sum=0
+
+for(let i=0;i<=n;i++)
+
+{
+
+if(i%2===0)
+
+{sum+=i}
+
+}
+
+return sum
+
+}
+
+
+let result=sumEven(n)
+
+console.log(`مجموع اعدا زوج 1 تا ${n}  = ${result}`)
+
+
+
