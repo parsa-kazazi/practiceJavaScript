@@ -39,3 +39,26 @@ if(i % 2===0)
 
 }
 
+
+#compare tow numbers (مقایسه بین دو عدد)
+
+let num1=10
+
+let num2=20
+
+
+let result=compare(num1,num2)
+
+console.log(`عدد ${result}  بزرگتر است`)
+
+
+function compare(number1,number2)
+{
+
+if(number1>number2){return number1}
+
+else{return number2}
+
+}
+
+
