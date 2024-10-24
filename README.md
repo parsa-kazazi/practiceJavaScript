@@ -1,6 +1,6 @@
 # practiceJavaScript
 
-# prime numbers (adade aval)
+# prime numbers ( عدد اول)
 for (let i= 1 ; i < 100 ; i++ )
 
 {
@@ -26,3 +26,16 @@ else
 {console.log(`عدد ${i} اول نیست `)}
 
 }
+
+
+
+
+# even numbers (اعداد زوج)
+for(let i=1 ;i<=10;i++){
+
+if(i % 2===0)
+
+{console.log(i)}
+
+}
+
