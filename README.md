@@ -40,7 +40,7 @@ if(i % 2===0)
 }
 
 
-#compare tow numbers (مقایسه بین دو عدد)
+# compare tow numbers (مقایسه بین دو عدد)
 
 let num1=10
 
