@@ -90,32 +90,37 @@ return sum
 
 
 # sumNumbersEveninArray (مجموع اعداد  زوج  آرایه )
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 
-</style>
-</head>
-<body>
-
-<script>
 let numbers=[1,12,8,2,31,19]
+
 let result=sumNumbersEveninArray(numbers)
+
 console.log(`مجموع اعداد زوج آرایه  ${result} است `)
 
+
 function sumNumbersEveninArray(temp)
+
 {
+
 let sum=0
+
  for (let i=0;i<temp.length;i++)
+ 
  {
+ 
            if(temp[i]%2===0)
+           
            {
+           
            sum=sum+temp[i]
+           
         
            }
+           
  }
+ 
 return sum
+
 }
 
 
@@ -125,9 +130,6 @@ return sum
 
 
 
-</script>
-</body>
-</html>
 
 
 
