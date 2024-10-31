@@ -129,15 +129,3 @@ return sum
 
 
 
-
-
-
-
-
-
-let result=sumEven(n)
-
-console.log(`مجموع اعدا زوج 1 تا ${n}  = ${result}`)
-
-
-
