@@ -124,8 +124,30 @@ return sum
 }
 
 
-
-
+# sum Numbers Of Bigger Than 10 with (callback function) (مجموع اعداد بزرگتر از 10 )
+ let numbers=[3,8,16,9,12]
+ 
+ let sum=0
+ 
+ let myFunction=(value)=>
+ 
+ {
+ 
+    if(value>=10)
+    
+   {
+   
+      sum+=value
+      
+   }
+   
+ }
+ 
+ 
+ let result= numbers.forEach(myFunction)
+ 
+ console.log(sum)
+ 
 
 
 
