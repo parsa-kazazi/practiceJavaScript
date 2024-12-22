@@ -1,7 +1,7 @@
 # practiceJavaScript
 
 # prime numbers (  عدد اول بین 1 - 100)
-`
+```
 for (let i= 1 ; i < 100 ; i++ )
 {
 let x=0
@@ -17,20 +17,20 @@ if(x===0)
 else
 {console.log(\`عدد ${i} اول نیست \`)}
 }
-`
+```
 
 
 
 # even numbers (اعداد زوج بین 1 - 10)
-`
+```
 for(let i=1 ;i<=10;i++){
 if(i % 2===0)
 {console.log(i)}
 }
-`
+```
 
 # compare tow numbers (مقایسه بین دو عدد)
-`
+```
 let num1=10
 let num2=20
 let result=compare(num1,num2)
@@ -42,11 +42,11 @@ function compare(number1,number2)
 if(number1>number2){return number1}
 else{return number2}
 }
-`
+```
 
 
 # sumEvenNumbers (مجموع اعدا زوج بین 1 تا 20)
-`
+```
 let n=20
 let sumEven=n=>{
 let sum=0
@@ -59,13 +59,13 @@ if(i%2===0)
 
 return sum
 }
-`
+```
 
 
 
 
 # sumNumbersEveninArray (مجموع اعداد  زوج  آرایه )
-`
+```
 let numbers=[1,12,8,2,31,19]
 let result=sumNumbersEveninArray(numbers)
 console.log(\`مجموع اعداد زوج آرایه  ${result} است \`)
@@ -83,10 +83,10 @@ let sum=0
 return sum
 
 }
-`
+```
 
 # sum Numbers Of Bigger Than 10 with (callback function) (مجموع اعداد بزرگتر از 10 )
-`
+```
 let numbers=[3,8,16,9,12]
 let sum=0
 let myFunction=(value)=>
@@ -103,6 +103,6 @@ let result= numbers.forEach(myFunction)
  
 console.log(sum)
  
-`
+```
 
 
