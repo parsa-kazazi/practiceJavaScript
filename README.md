@@ -13,9 +13,9 @@ if(i%j===0)
 }
 
 if(x===0)
-{console.log(\`عدد ${i} اول است \`)}
+{console.log(`عدد ${i} اول است `)}
 else
-{console.log(\`عدد ${i} اول نیست \`)}
+{console.log(`عدد ${i} اول نیست `)}
 }
 ```
 
@@ -35,7 +35,7 @@ let num1=10
 let num2=20
 let result=compare(num1,num2)
 
-console.log(\`عدد ${result}  بزرگتر است\`)
+console.log(`عدد ${result}  بزرگتر است`)
 
 function compare(number1,number2)
 {
@@ -68,7 +68,7 @@ return sum
 ```
 let numbers=[1,12,8,2,31,19]
 let result=sumNumbersEveninArray(numbers)
-console.log(\`مجموع اعداد زوج آرایه  ${result} است \`)
+console.log(`مجموع اعداد زوج آرایه  ${result} است `)
 
 function sumNumbersEveninArray(temp)
 {
