@@ -1,7 +1,7 @@
 # Practice JavaScript
 
 # prime numbers (  عدد اول بین 1 - 100)
-```
+```javascript
 for (let i= 1 ; i < 100 ; i++ ) {
     let x=0
     for(let j=2;j<i-1;j++) {
@@ -22,7 +22,7 @@ for (let i= 1 ; i < 100 ; i++ ) {
 
 
 # even numbers (اعداد زوج بین 1 - 10)
-```
+```javascript
 for(let i=1 ;i<=10;i++) {
     if(i % 2===0) {
         console.log(i)
@@ -31,7 +31,7 @@ for(let i=1 ;i<=10;i++) {
 ```
 
 # compare tow numbers (مقایسه بین دو عدد)
-```
+```javascript
 let num1=10
 let num2=20
 let result=compare(num1,num2)
@@ -51,7 +51,7 @@ function compare(number1,number2)
 
 
 # sumEvenNumbers (مجموع اعدا زوج بین 1 تا 20)
-```
+```javascript
 let n=20
 let sumEven=n=>{
     let sum=0
