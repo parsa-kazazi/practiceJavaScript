@@ -3,9 +3,9 @@
 # prime numbers (  عدد اول بین 1 - 100)
 ```javascript
 for(let i = 1; i < 100; i++ ) {
-    let x=0
+    let x = 0
     for (let j = 2; j < i - 1; j++) {
-        if(i%j===0) {
+        if(i % j === 0) {
         x=1
         }
     }
@@ -54,11 +54,11 @@ function compare(number1, number2)
 ```javascript
 let n=20
 let sumEven=n=> {
-    let sum=0
+    let sum = 0
 
     for(let i = 0; i <= n; i++) {
         if(i % 2 === 0) {
-        sum+=i
+        sum += i
         }
     }
     return sum
