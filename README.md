@@ -1,21 +1,21 @@
-# practiceJavaScript
+# Practice JavaScript
 
 # prime numbers (  عدد اول بین 1 - 100)
 ```
-for (let i= 1 ; i < 100 ; i++ )
-{
-let x=0
-for(let j=2;j<i-1;j++)
-{
+for (let i= 1 ; i < 100 ; i++ ) {
+    let x=0
+    for(let j=2;j<i-1;j++) {
+        if(i%j===0) {
+        x=1
+        }
+    }
 
-if(i%j===0)
-{x=1}
-}
-
-if(x===0)
-{console.log(`عدد ${i} اول است `)}
-else
-{console.log(`عدد ${i} اول نیست `)}
+    if(x===0) {
+        console.log(`عدد ${i} اول است `)
+    }
+    else {
+        console.log(`عدد ${i} اول نیست `)
+    }
 }
 ```
 
@@ -23,9 +23,10 @@ else
 
 # even numbers (اعداد زوج بین 1 - 10)
 ```
-for(let i=1 ;i<=10;i++){
-if(i % 2===0)
-{console.log(i)}
+for(let i=1 ;i<=10;i++) {
+    if(i % 2===0) {
+        console.log(i)
+    }
 }
 ```
 
@@ -39,8 +40,12 @@ console.log(`عدد ${result}  بزرگتر است`)
 
 function compare(number1,number2)
 {
-if(number1>number2){return number1}
-else{return number2}
+    if(number1>number2) {
+    return number1
+    }
+    else {
+    return number2
+    }
 }
 ```
 
@@ -49,15 +54,14 @@ else{return number2}
 ```
 let n=20
 let sumEven=n=>{
-let sum=0
+    let sum=0
 
-for(let i=0;i<=n;i++)
-{
-if(i%2===0)
-{sum+=i}
-}
-
-return sum
+    for(let i=0;i<=n;i++) {
+        if(i%2===0) {
+        sum+=i
+        }
+    }
+    return sum
 }
 ```
 
@@ -70,18 +74,16 @@ let numbers=[1,12,8,2,31,19]
 let result=sumNumbersEveninArray(numbers)
 console.log(`مجموع اعداد زوج آرایه  ${result} است `)
 
-function sumNumbersEveninArray(temp)
-{
-let sum=0
-    for (let i=0;i<temp.length;i++)
-    {
-        if(temp[i]%2===0)
+function sumNumbersEveninArray(temp) {
+    let sum=0
+        for (let i=0;i<temp.length;i++)
         {
-            sum=sum+temp[i]
-        }    
-    }
-return sum
-
+            if(temp[i]%2===0)
+            {
+                sum=sum+temp[i]
+            }    
+        }
+    return sum
 }
 ```
 
@@ -89,14 +91,11 @@ return sum
 ```
 let numbers=[3,8,16,9,12]
 let sum=0
-let myFunction=(value)=>
- 
-{
+let myFunction=(value)=> {
     if(value>=10)
     {
         sum+=value
     }
-   
 }
  
 let result= numbers.forEach(myFunction)
